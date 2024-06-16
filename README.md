@@ -46,3 +46,17 @@ To-Do List for 2024-06-17 (Tomorrow)
 - Remember to modify the code's assumptions about row and column headings if your Excel files are structured differently.
 - If your Excel file doesn't currently use date formulas, you'll need to update it manually before using this script.
 - The code currently doesn't handle editing or adding to-do items. You'd need to modify it or use the Excel file itself for those tasks.
+
+The project uses openpyxl library.
+This library is essential for working with Excel (.xlsx) files in Python. It provides functionalities to:
+- Load existing Excel workbooks.
+- Access and manipulate sheets within the workbook.
+- Read and write cell values.
+- Iterate through rows and columns of data.
+
+The find_date_cells function leverages openpyxl to achieve the following in your project:
+
+- It loads the specified Excel file using load_workbook.
+- It iterates through each sheet in the workbook using methods like sheetnames and accessing sheets by name.
+- It accesses cell values using the value attribute of a cell object.
+- It manipulates data like converting strings and extracting information from formulas.
