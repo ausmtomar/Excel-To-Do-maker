@@ -1,6 +1,9 @@
 # Excel-To-Do-maker
 ## Subject To-Do List Organizer with Date Tracking
 
+project file [here](Code/excel_pop.py)
+demo images [excel_image](demo_images/excel_demo.png)
+
 This Python project, tailored for your specific needs, transforms into a subject-based to-do list organizer that leverages existing information in your Excel spreadsheets. Here's a breakdown of its functionality:
 
 **Functionality:**
